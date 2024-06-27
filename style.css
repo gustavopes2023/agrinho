@@ -6,22 +6,22 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .cabecalho {
-    background-color: #424E61;
+    background-color: #849fb8;
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 24px 0;
+    padding: 20px 0;
 }
 
 .cabecalho-imagem{
-    width: 10%;
+    width: 20%;
 }
 
 .cabecalho-lista-item{
     display: inline-block;
     margin: 0 16px;
-    font-size: 16px;
+    font-size: 50px;
 }
 
 .escola-imagem{
@@ -49,17 +49,13 @@ body {
 .estudante{
     padding: 24px 0;
 }
-.estudante-imagem{
-    width: 120px;
-}
-
-.estudante-icone{
-    width: 24px;
-    padding: 4px 8px;
+div.box{
+    width: 100px;
+    display: inline-block;
 }
 
 .estudante-div{
-    text-align: center;
+    text-align: left;
     padding: 16px 0;
 }
 
@@ -70,7 +66,7 @@ body {
 
 .estudante-todos{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 10% 10%  10%;
 }
 
 .rodape{
